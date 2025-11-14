@@ -1,0 +1,223 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #111;
+    color: #fff;
+}
+
+/* HEADER */
+.header {
+    background: #000;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ff1b1b;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* NAVBAR */
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #ff1b1b;
+}
+
+/* HERO SECTION */
+.hero {
+    background: url('images/marvel-bg.jpg') center/cover no-repeat;
+    padding: 140px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero-content h2 span {
+    color: #ff1b1b;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn-primary {
+    padding: 12px 25px;
+    background: #ff1b1b;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #c70000;
+}
+
+/* FEATURED SECTION */
+.featured {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #ff1b1b;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: #222;
+    color: white;
+    width: 260px;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s;
+    border: 1px solid #ff1b1b44;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    border-color: #ff1b1b;
+}
+
+.product-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* ABOUT PAGE */
+.about {
+    padding: 50px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+/* CONTACT PAGE */
+.contact-form {
+    width: 400px;
+    background: #222;
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 10px;
+    border: 1px solid #ff1b1b44;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-form button {
+    width: 100%;
+    background: #ff1b1b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #c70000;
+}
+
+/* REGISTER & LOGIN FORM */
+.form-container {
+    width: 350px;
+    background: #222;
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #ff1b1b44;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background: #ff1b1b;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background: #c70000;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    text-align: center;
+    background: #000;
+    color: #ccc;
+    border-top: 2px solid #ff1b1b;
+}
